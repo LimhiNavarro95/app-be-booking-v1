@@ -18,9 +18,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ms-hotel</module>
-        <module>ms-room</module>
-        <module>ms-reservation</module>
+        <module>ms-hotels</module>
+        <module>ms-rooms</module>
+        <module>ms-reservations</module>
     </modules>
 
     <properties>
