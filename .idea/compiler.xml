@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ms-rooms" />
+        <module name="ms-config-server" />
         <module name="ms-hotels" />
         <module name="ms-reservations" />
       </profile>
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ms-config-server" options="-parameters" />
       <module name="ms-hotels" options="-parameters" />
       <module name="ms-reservation" options="-parameters" />
       <module name="ms-reservations" options="-parameters" />
